@@ -33,7 +33,7 @@ a{color:inherit;text-decoration:none}
 .nav{height:78px;padding:0 6vw;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20;background:#0a0a0bd9;backdrop-filter:blur(16px)}
 .logo{font-size:2.35rem;font-weight:800;letter-spacing:-.06em}
 .logo span{color:var(--accent)}
-.nav nav{display:flex;gap:2rem;font:500 .9rem "DM Mono";color:var(--muted)}
+.nav nav{display:flex;gap:2rem;font:500 1.5rem "DM Mono";color:var(--muted)}
 .nav nav a{transition:color .25s cubic-bezier(.4,0,.2,1)}
 .nav nav a:hover{color:var(--text)}
 .nav-cta{font:500 1.2rem "DM Mono";border:1px solid var(--line);border-radius:999px;padding:.65rem .9rem;transition:border-color .25s cubic-bezier(.4,0,.2,1),color .25s cubic-bezier(.4,0,.2,1),transform .25s cubic-bezier(.4,0,.2,1)}
@@ -69,10 +69,10 @@ em{font-family:var(--serif);font-weight:400;letter-spacing:-.055em}
 
 .section{padding:9rem 7vw;border-top:1px solid var(--line)}
 .heading h2,.lab h2,.about h2,.contact h2{font-size:clamp(2.7rem,5vw,5.2rem)}
-
-.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:4rem}
-.cap{min-height:290px;padding:1.5rem;border-right:1px solid var(--line);position:relative;cursor:default;transition:background .3s cubic-bezier(.4,0,.2,1)}
-.cap:first-child{border-left:1px solid var(--line)}
+.cap{border: 1px solid var(--line);}
+.cap-grid{display:grid;grid-template-columns:repeat(4,1fr);margin-top:4rem}
+.cap{min-height:290px;padding:1.5rem;position:relative;cursor:default;transition:background .3s cubic-bezier(.4,0,.2,1)}
+/* .cap:first-child{border-left:1px solid var(--line)} */
 .cap:hover,.cap.active{background:var(--surface)}
 .cap>small{font:500 .62rem "DM Mono";color:var(--accent)}
 .cap h3{margin-top:5rem;font-size:1.15rem}

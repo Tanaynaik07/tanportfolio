@@ -53,7 +53,7 @@ const projects: Project[] = [
     title: "Kestrel\nLead Extractor",
     desc: "AI-powered lead intake system that converts free-text inquiries into structured CRM data using Gemini, then automatically syncs leads to Google Sheets and sends formatted email notifications.",
     tags: ["Node.js", "Express", "Gemini", "Google Sheets", "Resend"],
-    demo: "#",
+    demo: "https://kestrel-advisory-lead-extractor-1.onrender.com/",
     repo: "https://github.com/Tanaynaik07/Kestrel-Advisory-Lead-Extractor",
     images: [
       "/project_images/kestrel/kestrel_1.png",
@@ -68,8 +68,8 @@ const projects: Project[] = [
     title: "Finance\nManagement",
     desc: "Personal finance management application backed by Firebase and Firestore, designed to organize financial data through a practical web interface with persistent cloud storage.",
     tags: ["Node.js", "Firebase", "Firestore", "JavaScript"],
-    demo: "https://finance-management-r99w.onrender.com/",
-    repo: "https://github.com/Tanaynaik07/finance-management",
+    demo: "https://finance-management-v2.onrender.com/",
+    repo: "https://github.com/Tanaynaik07/finance_management_v2",
     images: [
       "/project_images/finance/finance_1.png",
       "/project_images/finance/finance_2.png",
@@ -286,14 +286,15 @@ export default function Work() {
         /* Grid of project tiles — same bordered-cell language as .cap-grid */
         .wx-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+          grid-template-columns:repeat(4,1fr);
           gap: 1px;
-          background: var(--line);
-          border: 1px solid var(--line);
+          // background: var(--line);
+          // border: 1px solid var(--line);
           margin-top: 4rem;
         }
         .wx-item {
           position: relative;
+          border: 1px solid var(--line);
           background: var(--bg);
           padding: 1.5rem;
           min-height: 290px;
