@@ -1,0 +1,82 @@
+.hero-visual {
+  perspective: 800px;
+}
+
+.ring {
+  position: absolute;
+  width: 410px;
+  height: 410px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  border-top-color: transparent;
+  transform-style: preserve-3d;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.ring-a {
+  animation: orbitA 10s linear infinite;
+}
+
+.ring-b {
+  animation: orbitB 14s linear infinite;
+}
+
+@keyframes orbitA {
+  0% {
+    transform: rotateZ(-33deg) rotateX(55deg);
+  }
+
+  25% {
+    transform: rotateZ(-33deg) rotateX(145deg);
+  }
+
+  50% {
+    transform: rotateZ(-33deg) rotateX(235deg);
+  }
+
+  75% {
+    transform: rotateZ(-33deg) rotateX(325deg);
+  }
+
+  100% {
+    transform: rotateZ(-33deg) rotateX(415deg);
+  }
+}
+
+@keyframes orbitB {
+  0% {
+    transform: rotateZ(-33deg) rotateY(65deg);
+  }
+
+  25% {
+    transform: rotateZ(-33deg) rotateY(155deg);
+  }
+
+  50% {
+    transform: rotateZ(-33deg) rotateY(245deg);
+  }
+
+  75% {
+    transform: rotateZ(-33deg) rotateY(335deg);
+  }
+
+  100% {
+    transform: rotateZ(-33deg) rotateY(425deg);
+  }
+}
+
+
+.core{
+  position: relative;
+  z-index: 1;
+}
+
+.core strong {
+  transition: all 0.3s ease;
+}
+
+.core:hover strong {
+  color: white;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
