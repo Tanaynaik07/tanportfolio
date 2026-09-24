@@ -21,7 +21,7 @@ const projects: Project[] = [
     title: "EstateBro",
     desc: "Full-stack real estate platform for property discovery and management, featuring authentication, advanced search, property listings, subscriptions, analytics, and dedicated admin and staff portals.",
     tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "Tailwind"],
-    demo: "https://estatebro.onrender.com/",
+    demo: "https://estatebro123.onrender.com/",
     repo: "https://github.com/AritraNanda/Rael-Estate-Web",
     images: [
       "/project_images/realestate/estate_1.png",
