@@ -53,8 +53,8 @@ const projects: Project[] = [
     title: "Kestrel\nLead Extractor",
     desc: "AI-powered lead intake system that converts free-text inquiries into structured CRM data using Gemini, then automatically syncs leads to Google Sheets and sends formatted email notifications.",
     tags: ["Node.js", "Express", "Gemini", "Google Sheets", "Resend"],
-    demo: "https://kestrel-advisory-lead-extractor-1.onrender.com/",
-    repo: "https://github.com/Tanaynaik07/Kestrel-Advisory-Lead-Extractor",
+    demo: "https://kestrel-demo-lead-extractor.onrender.com/",
+    repo: "https://github.com/Tanaynaik07/Kestrel-DEMO--Lead-Extractor?tab=readme-ov-file",
     images: [
       "/project_images/kestrel/kestrel_1.png",
       "/project_images/kestrel/kestrel_2.png",
