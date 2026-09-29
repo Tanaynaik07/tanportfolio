@@ -58,7 +58,7 @@ export default function Contact() {
         </div>
         <div className="contact-email-copy">
           <small>Prefer email? Reach out directly</small>
-          <a href="mailto:hello@example.com">techbytan@example.com ↗</a>
+          <a href="mailto:hello@example.com">tanaynaik0710@gmail.com ↗</a>
         </div>
       </div>
     </section>

@@ -22,7 +22,7 @@ const projects: Project[] = [
     desc: "Full-stack real estate platform for property discovery and management, featuring authentication, advanced search, property listings, subscriptions, analytics, and dedicated admin and staff portals.",
     tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "Tailwind"],
     demo: "https://estatebro123.onrender.com/",
-    repo: "https://github.com/AritraNanda/Rael-Estate-Web",
+    // repo: "https://github.com/AritraNanda/Rael-Estate-Web",
     images: [
       "/project_images/realestate/estate_1.png",
       "/project_images/realestate/estate_2.png",
@@ -38,7 +38,7 @@ const projects: Project[] = [
     desc: "Interactive Japanese learning platform for mastering Hiragana, Katakana, and Kanji through lessons, quizzes, progress tracking, experience points, and competitive leaderboards.",
     tags: ["React", "Node.js", "GraphQL", "MongoDB", "Redux", "Tailwind"],
     demo: "https://kanaquest123.onrender.com/",
-    repo: "https://github.com/AritraNanda/kanaquest123",
+    // repo: "https://github.com/AritraNanda/kanaquest123",
     images: [
       "/project_images/kana/kana_1.png",
       "/project_images/kana/kana_2.png",
@@ -54,7 +54,7 @@ const projects: Project[] = [
     desc: "AI-powered lead intake system that converts free-text inquiries into structured CRM data using Gemini, then automatically syncs leads to Google Sheets and sends formatted email notifications.",
     tags: ["Node.js", "Express", "Gemini", "Google Sheets", "Resend"],
     demo: "https://kestrel-demo-lead-extractor.onrender.com/",
-    repo: "https://github.com/Tanaynaik07/Kestrel-DEMO--Lead-Extractor?tab=readme-ov-file",
+    // repo: "https://github.com/Tanaynaik07/Kestrel-DEMO--Lead-Extractor?tab=readme-ov-file",
     images: [
       "/project_images/kestrel/kestrel_1.png",
       "/project_images/kestrel/kestrel_2.png",
@@ -62,21 +62,30 @@ const projects: Project[] = [
     ],
   },
 
-  {
-    idx: "04",
-    category: "WEB APPLICATION",
-    title: "Finance\nManagement",
-    desc: "Personal finance management application backed by Firebase and Firestore, designed to organize financial data through a practical web interface with persistent cloud storage.",
-    tags: ["Node.js", "Firebase", "Firestore", "JavaScript"],
-    demo: "https://finance-management-v2.onrender.com/",
-    repo: "https://github.com/Tanaynaik07/finance_management_v2",
-    images: [
-      "/project_images/finance/finance_1.png",
-      "/project_images/finance/finance_2.png",
-      "/project_images/finance/finance_3.png",
-    ],
-  },
+  // {
+  //   idx: "04",
+  //   category: "WEB APPLICATION",
+  //   title: "Finance\nManagement",
+  //   desc: "Personal finance management application backed by Firebase and Firestore, designed to organize financial data through a practical web interface with persistent cloud storage.",
+  //   tags: ["Node.js", "Firebase", "Firestore", "JavaScript"],
+  //   demo: "https://finance-management-v2.onrender.com/",
+  //   // repo: "https://github.com/Tanaynaik07/finance_management_v2",
+  //   images: [
+  //     "/project_images/finance/finance_1.png",
+  //     "/project_images/finance/finance_2.png",
+  //     "/project_images/finance/finance_3.png",
+  //   ],
+  // },
 
+  {
+    idx: "06",
+    // eyebrow: "PRODUCTIVITY WEB APP",
+    title: "Founder's Diary",
+    tags: ["JavaScript", "GitHub API", "REST API", "Canvas API"],
+    images: ["project_images/playbook/playbook_1.png", "project_images/playbook/playbook_2.png", "project_images/playbook/playbook_3.png", "project_images/playbook/playbook_4.png"],
+    desc: "A personal workspace for tracking projects, goals, experiments, lessons and decisions in one place — with a timeline that builds itself from everything you log, and data that syncs across devices.",
+    demo: "https://tanaynaik07.github.io/playbook/",
+  },
   {
     idx: "05",
     category: "DEVELOPER TOOL",
@@ -84,7 +93,7 @@ const projects: Project[] = [
     desc: "Terminal-inspired GitHub profile explorer that analyzes repositories, languages, activity, commits, and profile statistics, with filtering, profile comparison, shareable URLs, and downloadable summary cards.",
     tags: ["JavaScript", "GitHub API", "REST API", "Canvas API"],
     demo: "https://tanaynaik07.github.io/gitstats/",
-    repo: "https://github.com/Tanaynaik07/gitstats",
+    // repo: "https://github.com/Tanaynaik07/gitstats",
     images: [
       "/project_images/gitstat/gitstat_1.png",
       "/project_images/gitstat/gitstat_2.png",
@@ -220,14 +229,14 @@ export default function Work() {
                 <a href={active.demo} target="_blank" rel="noopener noreferrer">
                   Live demo ↗
                 </a>
-                <a
+                {/* <a
                   className="wx-secondary"
                   href={active.repo}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Source ↗
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -242,9 +251,8 @@ export default function Work() {
                     <img
                       key={src}
                       src={src}
-                      alt={`${active.title.replace("\n", " ")} screenshot ${
-                        si + 1
-                      }`}
+                      alt={`${active.title.replace("\n", " ")} screenshot ${si + 1
+                        }`}
                       className="wx-slide-img"
                     />
                   ))}
