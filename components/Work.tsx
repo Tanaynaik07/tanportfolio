@@ -15,37 +15,37 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    idx: "01",
-    category: "FULL-STACK WEB APPLICATION",
-    title: "EstateBro",
-    desc: "Full-stack real estate platform for property discovery and management, featuring authentication, advanced search, property listings, subscriptions, analytics, and dedicated admin and staff portals.",
-    tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "Tailwind"],
-    demo: "https://estatebro123.onrender.com/",
-    // repo: "https://github.com/AritraNanda/Rael-Estate-Web",
-    images: [
-      "/project_images/realestate/estate_1.png",
-      "/project_images/realestate/estate_2.png",
-      "/project_images/realestate/estate_3.png",
-      "/project_images/realestate/estate_4.png",
-    ],
-  },
+  // {
+  //   idx: "01",
+  //   category: "FULL-STACK WEB APPLICATION",
+  //   title: "EstateBro",
+  //   desc: "Full-stack real estate platform for property discovery and management, featuring authentication, advanced search, property listings, subscriptions, analytics, and dedicated admin and staff portals.",
+  //   tags: ["React", "Node.js", "MongoDB", "Express", "JWT", "Tailwind"],
+  //   demo: "https://estatebro123.onrender.com/",
+  //   // repo: "https://github.com/AritraNanda/Rael-Estate-Web",
+  //   images: [
+  //     "/project_images/realestate/estate_1.png",
+  //     "/project_images/realestate/estate_2.png",
+  //     "/project_images/realestate/estate_3.png",
+  //     "/project_images/realestate/estate_4.png",
+  //   ],
+  // },
 
-  {
-    idx: "02",
-    category: "EDTECH WEB APPLICATION",
-    title: "KanaQuest",
-    desc: "Interactive Japanese learning platform for mastering Hiragana, Katakana, and Kanji through lessons, quizzes, progress tracking, experience points, and competitive leaderboards.",
-    tags: ["React", "Node.js", "GraphQL", "MongoDB", "Redux", "Tailwind"],
-    demo: "https://kanaquest123.onrender.com/",
-    // repo: "https://github.com/AritraNanda/kanaquest123",
-    images: [
-      "/project_images/kana/kana_1.png",
-      "/project_images/kana/kana_2.png",
-      "/project_images/kana/kana_3.png",
-      "/project_images/kana/kana_4.png",
-    ],
-  },
+  // {
+  //   idx: "02",
+  //   category: "EDTECH WEB APPLICATION",
+  //   title: "KanaQuest",
+  //   desc: "Interactive Japanese learning platform for mastering Hiragana, Katakana, and Kanji through lessons, quizzes, progress tracking, experience points, and competitive leaderboards.",
+  //   tags: ["React", "Node.js", "GraphQL", "MongoDB", "Redux", "Tailwind"],
+  //   demo: "https://kanaquest123.onrender.com/",
+  //   // repo: "https://github.com/AritraNanda/kanaquest123",
+  //   images: [
+  //     "/project_images/kana/kana_1.png",
+  //     "/project_images/kana/kana_2.png",
+  //     "/project_images/kana/kana_3.png",
+  //     "/project_images/kana/kana_4.png",
+  //   ],
+  // },
 
   {
     idx: "03",
