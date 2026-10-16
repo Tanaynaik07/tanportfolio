@@ -9,7 +9,7 @@ type Project = {
   desc: string;
   tags: string[];
   demo: string;
-  repo: string;
+  // repo: string;
   // Put files in /public/projects/<folder>/1.jpg etc. and list them here.
   images: string[];
 };
