@@ -79,6 +79,7 @@ const projects: Project[] = [
 
   {
     idx: "06",
+    category: "PERSONAL TOOL",
     // eyebrow: "PRODUCTIVITY WEB APP",
     title: "Founder's Diary",
     tags: ["JavaScript", "GitHub API", "REST API", "Canvas API"],
